@@ -1,0 +1,21 @@
+<<!DOCTYPE html>
+<html>
+<head>
+    <title>hola mundo</title>
+    <link rel="stylesheet" type="text/css" href="pinilla.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Calculadora</h1>
+        <input type="text" id="numero1" placeholder="Número 1">
+        <input type="text" id="numero2" placeholder="Número 2">
+        <input type="button" value="Sumar" onclick="realizarOperacion('suma')">
+        <input type="button" value="Restar" onclick="realizarOperacion('resta')">
+        <input type="button" value="Multiplicar" onclick="realizarOperacion('multiplicacion')">
+        <input type="button" value="Dividir" onclick="realizarOperacion('division')">
+        <p>Resultado: <span id="resultado">-</span></p>
+    </div>
+    <script src="operaciones.js"></script>
+</body>
+</html>
+
